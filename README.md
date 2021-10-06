@@ -4,6 +4,8 @@ Jogo feito em OpenGL para a disciplina de Computação Gráfica de 2021.
 
 Autores: Gabriel Ely Konrath e Guilherme Closs Fraga.
 
+Vídeo: https://asavbrm.sharepoint.com/:v:/s/2021_2851436_1_8-GabrielKonratheGuilhermeFraga/EXq9nkZTAvpNsAj9Iz-XJBoBhWLtzDNYmiva80b3ZwkNXg?e=XsSXgS&isSPOFile=1
+
 ### Instruções para compilar o jogo:
 - Fazer o download ou clone do repositório;
 - Abrir a solução `Sabertooth.sln` (pode ser encontrada dentro da pasta baixada ou clonada `OpenGL-3DGame-main/`) no Visual Studio 2019;
