@@ -1,4 +1,4 @@
-# OpenGL_3DGame
+# OpenGL-3DGame
 ## FPS_Game
 Jogo feito em OpenGL para a disciplina de Computação Gráfica de 2021.
 
