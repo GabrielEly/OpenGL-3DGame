@@ -1,6 +1,6 @@
 # OpenGL_3DGame
 ## FPS_Game
-Jogo feito em OpenGL para a disciplina de Processamento Gráfico de 2021.
+Jogo feito em OpenGL para a disciplina de Computação Gráfica de 2021.
 
 Autores: Gabriel Ely Konrath e Guilherme Closs Fraga.
 
