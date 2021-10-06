@@ -4,8 +4,6 @@ Jogo feito em OpenGL para a disciplina de Processamento Gráfico de 2021.
 
 Autores: Gabriel Ely Konrath e Guilherme Closs Fraga.
 
-Vídeo sobre: https://youtu.be/S7Yv5O_p7Cw
-
 ### Instruções para compilar o jogo:
 - Fazer o download ou clone do repositório;
 - Abrir a solução `Sabertooth.sln` (pode ser encontrada dentro da pasta baixada ou clonada `OpenGL-3DGame-main/Sabertooth`) no Visual Studio 2019;
@@ -19,5 +17,5 @@ OBS.:
 ### Informações sobre o código:
 Código usado é C++ juntamente com o OpenGL e GLSL, e as bibliotecas adicionais GLEW, GLFW, GLM, e SOIL.
 
-* FPS_Game: Projeto do jogo 3D foi realizado com base no código de um projeto no github, que pode ser encontrado em: 
+* FPS_Game: Projeto do jogo 3D foi realizado com base no código de um template no github, que pode ser encontrado em: https://github.com/RafaelFreita/Sabertooth
 Também utilizamos alguns recursos presentes em: https://learnopengl.com
