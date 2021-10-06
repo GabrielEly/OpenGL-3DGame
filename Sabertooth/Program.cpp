@@ -1,6 +1,6 @@
-// CÛdigo feito por Gabriel Ely Konrath e Guilherme Closs Fraga
-// Adaptado de Sabertooth disponÌvel no github
-// Projeto de um jogo de FPS b·sico
+// C√≥digo feito por Gabriel Ely Konrath e Guilherme Closs Fraga
+// Adaptado de Sabertooth dispon√≠vel no github
+// Projeto de um jogo de FPS b√°sico
 
 #include "Program.h"
 #include "Mesh.h"
@@ -76,7 +76,7 @@ GLFWwindow* Program::GLFWInit()
 	glfwGetFramebufferSize(window, &screenWidth, &screenHeight);
 	glViewport(0, 0, screenWidth, screenHeight);
 
-	// Obtendo as informaÁıes de vers„o
+	// Obtendo as informa√ß√µes de vers√£o
 	const GLubyte* renderer = glGetString(GL_RENDERER); /* get renderer string */
 	const GLubyte* version = glGetString(GL_VERSION); /* version as a string */
 	cout << "Renderer: " << renderer << endl;
@@ -237,7 +237,6 @@ void Program::Run(Shader shader, GLFWwindow* window, GLuint VAO, glm::vec3 objec
 			model = glm::scale(model, glm::vec3(0.5f, 0.5f, 0.5f));
 			float shotSpeed = 70.0 * deltaTime;
 			shotMove += shotSpeed * lastCameraFront;
-			model = glm::translate(model, shotMove);
 			coreShader.setMatrix4fv("model", model);
 
 			glDrawArrays(GL_TRIANGLES, 0, 36);
